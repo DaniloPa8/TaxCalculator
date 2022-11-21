@@ -2,10 +2,10 @@ import React from "react";
 
 const ThreeHouseIcon = ({ styling }) => {
   return (
-    <div className={`${styling}`}>
+    <div className={`${styling} p-2 flex items-center justify-center`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="w-[6vw] h-[6vw]"
+        class="lg:w-[6vw] lg:h-[6vw] w-[11vw] h-[11vw]"
         viewBox="0 0 100.000000 100.000000"
         version="1.1"
       >

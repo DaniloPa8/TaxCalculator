@@ -110,7 +110,9 @@ const IncomeDetails = forwardRef(
             <Button
               // disabled={!selectedButton}
               styling={`w-full h-3/4 mx-4 border-2 border-black-600 rounded-xl ${
-                selectedButton ? "bg-green-500 text-white" : "bg-gray-400"
+                selectedButton && inputValue
+                  ? "bg-green-500 text-white"
+                  : "bg-gray-400"
               }`}
               onClick={() => calculate()}
             >

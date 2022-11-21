@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <div className="flex h-[100vh] w-[100vw] items-center justify-center ">
-      <div className="absolute top-32 flex  lg:h-[70%] lg:w-3/5 h-1/3  w-[95%] ">
+      <div className="absolute top-32 flex  lg:h-[70%] lg:w-3/5 h-[70vw] w-[95%] ">
         <div className=" h-full w-16 rounded-l-xl ">
           <SideTab
             title="Income details"

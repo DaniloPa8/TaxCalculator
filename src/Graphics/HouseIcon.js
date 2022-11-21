@@ -5,7 +5,7 @@ const HouseIcon = ({ styling = "" }) => {
     <div className={`p-2 flex items-center justify-center ${styling}`}>
       <svg
         version="1.0"
-        className="w-[3vw] h-[3vw]"
+        className="lg:w-[3vw] lg:h-[3vw] w-[6vw] h-[6vw]"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 56.000000 57.000000"
         preserveAspectRatio="xMidYMid meet"

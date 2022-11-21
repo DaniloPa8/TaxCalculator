@@ -6,7 +6,7 @@ const IncomeInput = forwardRef(
     { inputValue, setInputValue, period, setPeriod, styling = "" },
     inputRef
   ) => {
-    const periodArray = ["weekly", "fortnightly", "monthly", "annualy"];
+    const periodArray = ["Weekly", "Fortnightly", "Monthly", "Annualy"];
 
     const addCommas = (input) =>
       input.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

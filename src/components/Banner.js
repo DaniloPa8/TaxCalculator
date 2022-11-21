@@ -4,7 +4,7 @@ import Button from "./Button";
 const Banner = ({ styling = "" }) => {
   return (
     <div
-      className={`w-[95%] m-auto bg-orange-200 flex items-center px-16 rounded-xl mt-2 ${styling}`}
+      className={`w-[95%] m-auto bg-orange-200 flex items-center px-8 rounded-xl mt-2 ${styling}`}
     >
       <ThreeHouseIcon styling="mt-6" />
       <p className="w-[70%] text-center text-xl">

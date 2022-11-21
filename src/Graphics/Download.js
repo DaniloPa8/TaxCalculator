@@ -2,11 +2,11 @@ import React from "react";
 
 const Download = ({ styling }) => {
   return (
-    <div className={`${styling}`}>
+    <div className={`${styling} p-2 flex items-center justify-center`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
-        class="w-[1.5vw] h-[1.5vw]"
+        className="lg:w-[1.5vw] lg:h-[1.5vw] w-[3vw] h-[3vw]"
         version="1.1"
       >
         <path d="" stroke="none" fill="#08ac04" fillRule="evenodd" />
