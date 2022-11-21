@@ -29,7 +29,7 @@ const DropdownList = ({
   };
 
   return (
-    <div className={` ${styling}`}>
+    <div className={`${styling}`}>
       <button
         className={`border-0 underline h-full ${buttonStyling}`}
         onClick={() => openDropdown()}
