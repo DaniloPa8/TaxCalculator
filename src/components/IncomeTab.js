@@ -7,14 +7,15 @@ import DropdownList from "./DropdownList";
 import Heading from "./Heading";
 import IncomeTable from "./IncomeTable";
 
+const periodArray = ["weekly", "fortnightly", "monthly", "annualy"];
+
 const IncomeTab = ({ totalAnnual, period, setPeriod }) => {
   const [annualNet, setAnnualNet] = useState(0);
-  const periodArray = ["weekly", "fortnightly", "monthly", "annualy"];
 
   return (
     <div className="flex-box flex-row h-full w-full border-2 border-l-0 border-black-200 ">
       <Heading styling="h-[15%] w-full" />
-      <Button styling="absolute right-[5%] top-[3.5%] w-[20%] lg:w-[15%] h-[10%] rounded-xl bg-white border-2 border-gray-200 text-green-500   flex justify-center items-center">
+      <Button styling="absolute right-[5%] top-[3.5%] w-1/5 lg:w-[15%] h-[10%] rounded-xl bg-white border-2 border-gray-200 text-green-500   flex justify-center items-center">
         <Download /> Download
       </Button>
       <div className="h-3/5 w-[95%] mx-auto bg-cyan-200 rounded-xl">
